@@ -5,7 +5,6 @@
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  max-height: 610px;
   height: 100%;
 }
 
@@ -25,6 +24,7 @@
   border-spacing: 0;
   user-select: none;
   margin: 0 1rem;
+  width: 100%;
 }
 
 .DayPicker-NavBar {

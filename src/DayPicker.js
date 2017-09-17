@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import Caption from './Caption';
-import Navbar from './Navbar';
+// import Caption from './Caption';
+// import Navbar from './Navbar';
 import Month from './Month';
 import Weekday from './Weekday';
 
@@ -522,8 +522,8 @@ export default class DayPicker extends Component {
           onFocus={this.props.onFocus}
           onBlur={this.props.onBlur}
         >
-          {this.renderNavbar()}
-          {this.renderMonths()}
+          {/*{this.renderNavbar()}*/}
+          {/*{this.renderMonths()}*/}
         </div>
       </div>
     );
