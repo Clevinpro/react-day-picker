@@ -2,7 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad43ac76-2b08-4a88-955c-d96128fc864e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DayPicker.js" afterPath="$PROJECT_DIR$/src/DayPicker.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Caption.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Caption.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/DateUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/DateUtils.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Day.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Day.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/DayPicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/DayPicker.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/DayPickerInput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/DayPickerInput.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Helpers.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/LocaleUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/LocaleUtils.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/ModifiersUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/ModifiersUtils.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Month.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Month.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Navbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Navbar.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/PropTypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/PropTypes.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Weekday.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Weekday.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Weekdays.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/Weekdays.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/addons/LocaleUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/addons/LocaleUtils.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/addons/MomentLocaleUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/addons/MomentLocaleUtils.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/addons/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/addons/index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/classNames.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/classNames.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/index.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/keys.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/style.css" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,12 +100,11 @@
       <file leaf-file-name="DayPicker.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DayPicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="390">
               <caret line="525" column="10" lean-forward="false" selection-start-line="525" selection-start-column="10" selection-end-line="525" selection-end-column="31" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#149#177#0" expanded="true" />
-                <marker date="1505680310774" expanded="true" signature="14367:14388" ph="/*...*/" />
               </folding>
             </state>
           </provider>
@@ -242,16 +279,16 @@
       <option name="presentableId" value="Default" />
       <updated>1505305488800</updated>
       <workItem from="1505305493957" duration="6123000" />
-      <workItem from="1505678632431" duration="1626000" />
+      <workItem from="1505678632431" duration="1750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7749000" />
+    <option name="totallyTimeSpent" value="7873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.48283753" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -259,10 +296,10 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.51716244" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -323,6 +360,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-335">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -404,12 +442,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DayPicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="390">
           <caret line="525" column="10" lean-forward="false" selection-start-line="525" selection-start-column="10" selection-end-line="525" selection-end-column="31" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#149#177#0" expanded="true" />
-            <marker date="1505680310774" expanded="true" signature="14367:14388" ph="/*...*/" />
           </folding>
         </state>
       </provider>
