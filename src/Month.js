@@ -28,11 +28,11 @@ export default class Month extends Component {
 
     renderDay: PropTypes.func.isRequired,
 
-    captionElement: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.func,
-      PropTypes.instanceOf(React.Component),
-    ]).isRequired,
+    // captionElement: PropTypes.oneOfType([
+    //   PropTypes.element,
+    //   PropTypes.func,
+    //   PropTypes.instanceOf(React.Component),
+    // ]).isRequired,
     weekdayElement: PropTypes.oneOfType([
       PropTypes.element,
       PropTypes.func,
@@ -128,7 +128,7 @@ export default class Month extends Component {
       months,
 
       fixedWeeks,
-      captionElement,
+      // captionElement,
       weekdayElement,
 
       locale,
@@ -152,15 +152,15 @@ export default class Month extends Component {
       locale,
       onClick: onCaptionClick ? e => onCaptionClick(month, e) : undefined,
     };
-    const caption = React.isValidElement(captionElement)
-      ? React.cloneElement(captionElement, captionProps)
-      : React.createElement(captionElement, captionProps);
+    // const caption = React.isValidElement(captionElement)
+    //   ? React.cloneElement(captionElement, captionProps)
+    //   : React.createElement(captionElement, captionProps);
 
     const weeks = Helpers.getWeekArray(month, firstDayOfWeek, fixedWeeks);
 
     return (
       <div className={classNames.month} role="grid">
-        {caption}
+        {/*{caption}*/}
         <Weekdays
           classNames={classNames}
           weekdaysShort={weekdaysShort}
