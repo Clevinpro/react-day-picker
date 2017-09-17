@@ -99,11 +99,11 @@ export default class DayPicker extends Component {
     //   PropTypes.func,
     //   PropTypes.instanceOf(Component),
     // ]),
-    captionElement: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.func,
-      PropTypes.instanceOf(Component),
-    ]),
+    // captionElement: PropTypes.oneOfType([
+    //   PropTypes.element,
+    //   PropTypes.func,
+    //   PropTypes.instanceOf(Component),
+    // ]),
 
     // Events
     onBlur: PropTypes.func,

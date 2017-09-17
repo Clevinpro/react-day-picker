@@ -41,6 +41,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/keys.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/src/keys.js.map" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/style.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DayPicker.js" afterPath="$PROJECT_DIR$/src/DayPicker.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,8 +102,8 @@
       <file leaf-file-name="DayPicker.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DayPicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="525" column="10" lean-forward="false" selection-start-line="525" selection-start-column="10" selection-end-line="525" selection-end-column="31" />
+            <state relative-caret-position="-6420">
+              <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#149#177#0" expanded="true" />
@@ -279,15 +281,15 @@
       <option name="presentableId" value="Default" />
       <updated>1505305488800</updated>
       <workItem from="1505305493957" duration="6123000" />
-      <workItem from="1505678632431" duration="1750000" />
+      <workItem from="1505678632431" duration="2386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7873000" />
+    <option name="totallyTimeSpent" value="8509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.48283753" order="0" side_tool="false" content_ui="combo" />
@@ -442,8 +444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DayPicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="525" column="10" lean-forward="false" selection-start-line="525" selection-start-column="10" selection-end-line="525" selection-end-column="31" />
+        <state relative-caret-position="-6420">
+          <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#149#177#0" expanded="true" />
