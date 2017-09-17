@@ -94,11 +94,11 @@ export default class DayPicker extends Component {
       PropTypes.func,
       PropTypes.instanceOf(Component),
     ]),
-    navbarElement: PropTypes.oneOfType([
-      PropTypes.element,
-      PropTypes.func,
-      PropTypes.instanceOf(Component),
-    ]),
+    // navbarElement: PropTypes.oneOfType([
+    //   PropTypes.element,
+    //   PropTypes.func,
+    //   PropTypes.instanceOf(Component),
+    // ]),
     captionElement: PropTypes.oneOfType([
       PropTypes.element,
       PropTypes.func,
@@ -523,7 +523,7 @@ export default class DayPicker extends Component {
           onBlur={this.props.onBlur}
         >
           {/*{this.renderNavbar()}*/}
-          {/*{this.renderMonths()}*/}
+          {this.renderMonths()}
         </div>
       </div>
     );
