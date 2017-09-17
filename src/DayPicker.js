@@ -142,8 +142,8 @@ export default class DayPicker extends Component {
     showWeekNumbers: false,
     renderDay: day => day.getDate(),
     weekdayElement: <Weekday />,
-    navbarElement: <Navbar classNames={classNames} />,
-    captionElement: <Caption classNames={classNames} />,
+    // navbarElement: <Navbar classNames={classNames} />,
+    // captionElement: <Caption classNames={classNames} />,
   };
 
   constructor(props) {
@@ -426,36 +426,36 @@ export default class DayPicker extends Component {
     e.target.blur();
   };
 
-  renderNavbar() {
-    const {
-      labels,
-      locale,
-      localeUtils,
-      canChangeMonth,
-      navbarElement,
-      ...attributes
-    } = this.props;
-
-    if (!canChangeMonth) return null;
-
-    const props = {
-      classNames: this.props.classNames,
-      className: this.props.classNames.navBar,
-      nextMonth: this.getNextNavigableMonth(),
-      previousMonth: this.getPreviousNavigableMonth(),
-      showPreviousButton: this.allowPreviousMonth(),
-      showNextButton: this.allowNextMonth(),
-      onNextClick: this.showNextMonth,
-      onPreviousClick: this.showPreviousMonth,
-      dir: attributes.dir,
-      labels,
-      locale,
-      localeUtils,
-    };
-    return React.isValidElement(navbarElement)
-      ? React.cloneElement(navbarElement, props)
-      : React.createElement(navbarElement, props);
-  }
+  // renderNavbar() {
+  //   const {
+  //     labels,
+  //     locale,
+  //     localeUtils,
+  //     canChangeMonth,
+  //     // navbarElement,
+  //     ...attributes
+  //   } = this.props;
+  //
+  //   if (!canChangeMonth) return null;
+  //
+  //   const props = {
+  //     classNames: this.props.classNames,
+  //     className: this.props.classNames.navBar,
+  //     nextMonth: this.getNextNavigableMonth(),
+  //     previousMonth: this.getPreviousNavigableMonth(),
+  //     showPreviousButton: this.allowPreviousMonth(),
+  //     showNextButton: this.allowNextMonth(),
+  //     onNextClick: this.showNextMonth,
+  //     onPreviousClick: this.showPreviousMonth,
+  //     dir: attributes.dir,
+  //     labels,
+  //     locale,
+  //     localeUtils,
+  //   };
+  //   return React.isValidElement(navbarElement)
+  //     ? React.cloneElement(navbarElement, props)
+  //     : React.createElement(navbarElement, props);
+  // }
 
   renderMonths() {
     const months = [];
